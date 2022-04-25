@@ -63,6 +63,9 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)
 # Platform
 TARGET_BOARD_PLATFORM := bengal
 
+# Filesystem
+TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
