@@ -66,6 +66,9 @@ TARGET_BOARD_PLATFORM := bengal
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# HIDL
+DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
