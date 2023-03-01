@@ -143,6 +143,26 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-qti.xml \
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.mmi.charge_only.rc \
+    init.mmi.chipset.rc \
+    init.mmi.debug.rc \
+    init.mmi.diag.rc \
+    init.mmi.diag_mdlog.rc \
+    init.mmi.overlay.rc \
+    init.mmi.rc \
+    init.mmi.tcmd.rc \
+    init.mmi.usb.rc \
+    init.mmi.wlan.rc \
+    init.qcom.factory.rc \
+    init.qcom.rc \
+    init.qcom.usb.rc \
+    init.qti.ufs.rc \
+    init.target.rc \
+    fstab.qcom \
+    ueventd.qcom.rc \
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
 
