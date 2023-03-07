@@ -21,4 +21,17 @@ PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto G Power (2021)
 PRODUCT_MANUFACTURER := Motorola
 
+PRODUCT_AAPT_CONFIG := xxxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1600
+TARGET_SCREEN_WIDTH := 720
+
+# Build info
+BUILD_FINGERPRINT := "motorola/msi/msi:11/RZBS31.Q2-143-27-13/b542c:user/release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=borneo_retail \
+    PRIVATE_BUILD_DESC="borneo_retail-user 11 RZBS31.Q2-143-27-13 b542c release-keys"
+
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
