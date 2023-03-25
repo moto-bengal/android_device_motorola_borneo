@@ -15,7 +15,8 @@ $(call inherit-product, vendor/motorola/borneo/borneo-vendor.mk)
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    $(LOCAL_PATH) \
+    hardware/qcom-caf/bootctrl \
 
 # A/B support
 AB_OTA_UPDATER := true
